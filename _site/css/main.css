@@ -1,62 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'inter', sans-serif;
-
-    
-    
+    font-family: 'inter', sans-serif; 
 } 
-
-.hero{
-    background-image: url(/assets/img/Hero/hiveboxx-FwdWO5yEo5s-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 700px;
-    filter:brightness(100%);
-    transition: filter 0.5s ease;
-}
-
-.hero:hover{
-    filter: brightness(100%);
-}
-
-.hero-element{
-    position: relative;
-    background-color: #000000;
-    padding: 50px 0px;
-    opacity: 0.85;
-    width: 30%;
-    margin-left: 100px;
-    top: 20%;
-    border-radius: 40px;
-
-}
-
-.hero-element h1{
-    color: whitesmoke;
-    padding: 20px 15px;
-    font-size: 3rem;
-    
-}
-
-.hero-element p{
-    color: whitesmoke;
-    font-size: 1rem;
-    padding: 50px 15px;
-}
-
-.divider {
-    position: absolute;
-    top: 95.7%;
-    left: 50%;
-}
-
-.divider img{
-    height:30px;
-    width: 30px;
-}
-
 
 .primary{
     background-color: #2E1F27;
@@ -124,16 +70,9 @@
     background-color: #2E1F27;
 }
 
+
 .secondary-element-two h1, .secondary-element-two p{
-    margin: 20px 30px;
-}
-
-.secondary-element-two p{
-    margin-bottom: 50px;
-}
-
-.secondary-element-two h1{
- 
+    margin: 25px 30px;
 }
 
 .secondary-element-two p{
