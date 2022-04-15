@@ -2,10 +2,34 @@
     margin: auto;
 }
 
+/* This handles the three elements on the index page, the three elements are displayed in a grid with 3 columns
+each elemnt itself is then a grid with two rows - this was to ensure that the body text always stays in on the same line */
+
 .primary-element-wrapper{
     margin: auto;
-    width: 90%;
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 80px;
+    grid-column-gap: 10px;
 }
+
+.primary-element {
+    display:grid;
+    grid-template-rows: 30% 1fr auto;
+    grid-row-gap: 20px;
+    margin: 0px 30px;
+}
+
+.primary-element-button{
+    padding-bottom: 20px;
+    transition: all 1s ease;
+}
+
+.secondary-element-wrapper{
+    margin: auto;
+    width: 90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
+
+
