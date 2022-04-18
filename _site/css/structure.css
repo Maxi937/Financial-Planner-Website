@@ -1,3 +1,7 @@
+
+/* Index */
+
+
 .container{
     margin: auto;
 }
@@ -32,4 +36,29 @@ each elemnt itself is then a grid with two rows - this was to ensure that the bo
     grid-column-gap: 100px;
 }
 
+/* Services */
+
+.services-grid{
+    margin: 80px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 80px;
+    justify-items: center;
+}
+
+.affiliationspartners-grid{
+    width: 70%;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    justify-items: center;
+}
+
+
+.about-container{
+    margin:100px;
+}
 

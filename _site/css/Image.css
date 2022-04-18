@@ -1,0 +1,80 @@
+
+
+.services-element span{
+    color: #09BC8A;
+    font-size: 3rem;
+    position: relative;
+    z-index: 100;
+    padding: 1.5rem 3rem;
+    border: solid 2px #09BC8A;
+    opacity: 0;
+    transition: opacity .5s
+}
+
+.services-element a{
+    text-decoration: none;
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-element a::before {
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: .2;
+    transition: opacity .5s;  
+}
+
+.services-element a:hover span {
+    opacity: 1;
+}
+
+.services-element a:hover::before {
+    opacity: .7;
+}
+
+.services-element{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 200px;
+    width: 350px;
+}
+
+#services-mortgage {
+    background-image: url(/assets/img/Services/Mortgage/GN4_DAT_19338729.jpg--making__cents__the_pros_and_cons_of_long_term_fixed_mortgage_rates.jpg);
+}
+
+#services-commercial {
+    background-image: url(/assets/img/Services/Commercial/Business.jpg);
+}
+
+#services-investments {
+    background-image: url(/assets/img/Services/Investments/towfiqu-barbhuiya-joqWSI9u_XM-unsplash.jpg);
+}
+#services-retirement {
+    background-image: url(/assets/img/Services/Pensions/shutterstock_705716659-800x450.jpg);
+}
+#services-insurance {
+    background-image: url(/assets/img/Services/Insurance/Income-Protection-Insurance-e1629730366581.png);
+}
+#services-indepadvice {
+    background-image: url(/assets/img/Services/Independent/types-of-meetings.webp);
+}
+
+.affiliationspartners-grid img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 10px;
+}
+

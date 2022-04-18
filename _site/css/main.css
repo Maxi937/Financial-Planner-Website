@@ -4,6 +4,8 @@
     font-family: 'inter', sans-serif; 
 } 
 
+/* Index */
+
 .primary{
     background-color: #2E1F27;
     padding: 50px 0px;
@@ -64,19 +66,67 @@
 }
 
 .secondary-element-two{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     color: whitesmoke;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-color: #2E1F27;
 }
 
 
-.secondary-element-two h1, .secondary-element-two p{
-    margin: 25px 30px;
+.secondary-element-two h1 {
+    margin: 20px 30px;
+    margin-bottom: 10px;
 }
 
 .secondary-element-two p{
+    margin: 10px 30px;
+    padding-bottom: 30px;
+}
+
+/* Services */
+
+.services-container{
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
+.services-hero{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: auto;
+}
 
+.services-hero h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.services-hero p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.services-element p{
+    margin: 10px 80px;
+    padding: 10px 0px;
+    background-color: #09BC8A;
+    border-radius: 20px;
+}
+
+.affiliationspartners-grid h1{
+    padding: 20px 0px;
+}
+
+/* about */
+.about-hero h1 {
+    margin: 50px 0px;
+}
+.about-hero p {
+    border-top: solid 2px #09BC8A;
+    border-bottom: solid 2px #09BC8A;
+    line-height: 25.5px;
+}
