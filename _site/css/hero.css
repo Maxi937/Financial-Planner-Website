@@ -1,38 +1,61 @@
 .hero{
+    position: relative;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+}
+
+.hero::before{
+    position: absolute;
+    content:"";
+    inset: 0;
+    z-index: -1;
+    filter: brightness(70%);
     background-image: url(/assets/img/Hero/hiveboxx-FwdWO5yEo5s-unsplash.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
-    height: 700px;
-    filter:brightness(100%);
-    transition: filter 0.5s ease;
+    background-position:center 30%;
+    transition: filter .5s ease;
 }
 
-.hero:hover{
-    filter: brightness(100%);
+.hero:hover::before{
+    filter: brightness(90%);
 }
 
 .hero-element{
     position: relative;
-    background-color: #000000;
-    padding: 50px 0px;
-    opacity: 0.85;
+    opacity: 1;
     width: 30%;
-    margin-left: 100px;
-    top: 20%;
-    border-radius: 40px;
+    border-radius: 35px;
+    isolation: isolate;
+    left: 5%;
+}
+
+.hero-element::before{
+    position: absolute;
+    border-radius: inherit;
+    content:"";
+    inset: 0;
+    background-color: #000000;
+    z-index: -1;
+    opacity: .8;
+    transition: opacity .5s ease;
+}
+
+.hero:hover > .hero-element::before{
+    opacity: 1;
 }
 
 .hero-element h1{
     color: whitesmoke;
-    padding: 20px 15px;
-    font-size: 3rem; 
+    padding: 5% 5%;
+    font-size: 3vw; 
 }
 
 .hero-element p{
     color: whitesmoke;
-    font-size: 1rem;
-    padding: 50px 15px;
+    font-size: 1vw;
+    padding: 5% 5%;
 }
 
 .divider {

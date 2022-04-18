@@ -8,45 +8,51 @@
 
 .primary{
     background-color: #2E1F27;
-    padding: 50px 0px;
+    padding: 2% 0px;
 }
 
 .primary-element {
     text-align: center;
     background-color: #09BC8A;
-    border-radius: 35px;
+    border-radius: 10px;
 }
 
 .primary-element h1{
     color: whitesmoke;
-    font-size: 3rem;
-    padding: 40px 10px;
+    padding: 4%;
+    font-size: 2.5vw;
 }
-
 
 .primary-element p{
     color: whitesmoke;
-    font-size: 1.2rem;
-    padding: 0px 20px; 
-    padding-top: 20px;
+    font-size: 1.2vw;
+    padding: 3%;
+}
+
+.primary-element-button{
+    grid-row: 2;
+    background-color: #09BC8A;
+    text-align: center;
+    padding: 4% 0%;
+    border-radius: 10px;
+    margin-top: auto;
+    transition: all 1s ease;
 }
 
 .anchor-button{
+    font-size: 1.2rem;
     border-radius: 35px;
     border: solid 1px whitesmoke;
     background-color: #2E1F27;
     color: whitesmoke;
-    font-size: 1rem;
-    padding: 10px 20px; 
     transition: all 0.5s ease;
+    padding: 1.5%;
 }
 
 .anchor-button:hover{
     cursor: pointer;
     background-color: #ffde06;
     color: rgb(0, 0, 0);
-    font-size: 1rem;
-    padding: 10px 20px; 
 }
 
 .secondary{
@@ -97,6 +103,7 @@
     color: rgb(0, 0, 0);
     width: 90%;
     margin: auto;
+    margin-bottom: 2%;
 }
 
 .services-hero h1{
@@ -111,10 +118,11 @@
 }
 
 .services-element p{
-    margin: 10px 80px;
-    padding: 10px 0px;
     background-color: #09BC8A;
     border-radius: 20px;
+    margin: 2% 10%;
+    padding: 1% 10px;
+    font-size: 1.2vw;
 }
 
 .affiliationspartners-grid h1{
