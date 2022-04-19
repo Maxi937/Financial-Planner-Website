@@ -60,11 +60,11 @@
 
 .divider {
     position: absolute;
-    top: 95.7%;
     left: 50%;
+    top: 97%;
 }
 
 .divider img{
-    height:30px;
-    width: 30px;
+    height:1vw;
+    width: 1vw;
 }

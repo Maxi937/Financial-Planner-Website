@@ -15,22 +15,20 @@
     text-align: center;
     background-color: #09BC8A;
     border-radius: 10px;
+    font-size: 1.2rem;
 }
 
 .primary-element h1{
     color: whitesmoke;
     padding: 4%;
-    font-size: 2.5vw;
 }
 
 .primary-element p{
     color: whitesmoke;
-    font-size: 1.2vw;
     padding: 3%;
 }
 
 .primary-element-button{
-    grid-row: 2;
     background-color: #09BC8A;
     text-align: center;
     padding: 4% 0%;
@@ -40,7 +38,6 @@
 }
 
 .anchor-button{
-    font-size: 1.2rem;
     border-radius: 35px;
     border: solid 1px whitesmoke;
     background-color: #2E1F27;
@@ -101,7 +98,7 @@
 
 .services-hero{
     color: rgb(0, 0, 0);
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-bottom: 2%;
 }
@@ -117,24 +114,81 @@
     padding-bottom: 30px;
 }
 
-.services-element p{
-    background-color: #09BC8A;
-    border-radius: 20px;
-    margin: 2% 10%;
-    padding: 1% 10px;
-    font-size: 1.2vw;
-}
-
 .affiliationspartners-grid h1{
     padding: 20px 0px;
 }
 
 /* about */
+
+.about-management-image {
+    width: 300px;
+    align-self: center;
+}
+
 .about-hero h1 {
     margin: 50px 0px;
 }
 .about-hero p {
-    border-top: solid 2px #09BC8A;
-    border-bottom: solid 2px #09BC8A;
-    line-height: 25.5px;
+    padding: 10px 0px;
+    border-top: solid 5px #09BC8A;
+    border-bottom: solid 5px #09BC8A;
+    line-height: 30.5px;
 }
+
+.about-secondary{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-img {
+    width: 55vw;
+    margin-top: 50px;
+}
+
+.about-management-element{
+    width: 93%;
+}
+
+.about-management-element h2{
+    font-size: 2rem;
+}
+
+.about-management-header {
+    display: flex;
+}
+
+.about-management-header em{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight:bolder;
+    color: #09BC8A;
+    flex-grow: 1;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 5px solid black;
+}
+
+.about-management-text {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.about-management-contact{
+    display: flex;
+    flex: 80% 20%;
+    margin: 20px 0;
+}
+
+.about-management-contact p{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.about-management-contact em{
+    font-style: normal;
+    font-weight:bolder;
+    color: #09BC8A;
+    padding-left: 1rem;
+}
+
