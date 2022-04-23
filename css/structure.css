@@ -62,7 +62,6 @@ each elemnt itself is then a grid with two rows - this was to ensure that the bo
 }
 
 .about-management-grid{
-    width:80%;
     display: grid;
     grid-template-columns: auto 1fr;
     margin: 200px auto;

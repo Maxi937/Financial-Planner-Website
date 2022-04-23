@@ -147,11 +147,11 @@
 }
 
 .about-management-element{
-    width: 93%;
+    
 }
 
 .about-management-element h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .about-management-header {
@@ -159,14 +159,14 @@
 }
 
 .about-management-header em{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight:bolder;
     color: #09BC8A;
     flex-grow: 1;
     margin-left: 1rem;
     padding-left: 1rem;
-    border-left: 5px solid black;
+    border-left: 2px solid black;
 }
 
 .about-management-text {
